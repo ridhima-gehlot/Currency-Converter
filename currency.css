@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f4e4ba;
+  background-color: #c75d88;
 }
 
 .container {
@@ -78,4 +78,11 @@ form button {
   background-color: #af4d98;
   color: #fff;
   font-size: 1.15rem;
-  cursor: pointer;}
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6f2c68; /* A slightly darker version */
+  box-shadow:  4px 8px rgba(0, 0, 0, 0.2)
+}
