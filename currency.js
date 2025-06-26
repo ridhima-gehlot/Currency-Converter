@@ -162,7 +162,7 @@ const countryList = {
 
 //code starts from here 
 
-let base_url =  "http://www.floatrates.com/daily/usd.json";
+let base_url =  "https://www.floatrates.com/daily/usd.json";
  
 const dropdowns=document.querySelectorAll(".dropdown select"); //to fill the dropdown
  dropdowns.forEach((select)=> {
